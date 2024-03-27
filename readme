@@ -10,11 +10,14 @@
   /git commit -m "add_readme_initialcommit_HG"
   /git push
 
-  * 개발 중 (Develop branch), Sync 할 사항이 생길 경우*
-  1. github - 자신의 digital_highway 리파지토리에서 sync 실행
-  2. Develop branch에서 Main branch로 변경
-  3. git pull 
-  4. Main이 업데이트된 이후 Develop Branch로 변경
+  1-4) PR 발행 이후
+  단체 카톡 / 개인 카톡으로 PR 발행했다고 알림. 이후 PR 승인
+
+* 개발 중 (Develop branch), 다른 사람의 PR을 Sync 할 사항이 생길 경우*
+1. github - 자신의 digital_highway 리파지토리에서 sync 실행
+2. Develop branch에서 Main branch로 변경
+3. git pull 
+4. Main이 업데이트된 이후 Develop Branch로 변경
 
 
 2.commit 규칙
@@ -27,4 +30,4 @@
   - react 실습 때의 구성과 같은 파일 구성
 
 4. .gitignore
-  1. gitignore에 추가할 항목들은 folder 생성 이후 폴더 이름을 추가하면 편함
+  1. gitignore에 추가할 항목들은 folder 생성 이후 폴더 이름을 추가하도록 함
